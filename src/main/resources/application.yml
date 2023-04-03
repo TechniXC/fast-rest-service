@@ -11,7 +11,7 @@ spring:
     refresh:
       enabled: false
   application:
-    name: fast-rest-service-v1
+    name: fast-rest-service-v0
 
 logging:
   level:
