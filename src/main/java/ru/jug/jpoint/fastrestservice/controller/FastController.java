@@ -13,6 +13,6 @@ public class FastController {
 
     @GetMapping("/")
     public ResponseEntity<InfoDto> getInfo() {
-        return new ResponseEntity<>(new InfoDto("John", "Doe"), HttpStatus.OK);
+        return new ResponseEntity<>(new InfoDto("Jane", "Doe"), HttpStatus.OK);
     }
 }

@@ -11,7 +11,7 @@ spring:
     refresh:
       enabled: false
   application:
-    name: fast-rest-service-v0
+    name: fast-rest-service-v1
 
 logging:
   level:
@@ -22,6 +22,9 @@ management:
     web:
       exposure:
         include: "*"
+  zipkin:
+    tracing:
+      endpoint: http://grafana-tempo:9411/api/v2/spans
   endpoint:
     health:
       probes:
